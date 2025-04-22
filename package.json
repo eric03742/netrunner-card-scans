@@ -2,9 +2,17 @@
   "name": "@eric03742/netrunner-card-scans",
   "version": "0.1.0",
   "description": "《矩阵潜袭》卡牌图片资源下载工具",
+  "type": "module",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "build:release": "npm run clean && tsc -p tsconfig.release.json",
+    "clean": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -13,10 +21,31 @@
   "keywords": [
     "Netrunner"
   ],
-  "author": "Eric03742",
+  "author": {
+    "name": "Eric03742",
+    "email": "eric03742@foxmail.com",
+    "url": "https://github.com/eric03742"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eric03742/netrunner-card-scans/issues"
   },
-  "homepage": "https://github.com/eric03742/netrunner-card-scans#readme"
+  "homepage": "https://github.com/eric03742/netrunner-card-scans#readme",
+  "engines": {
+    "node": ">= 22.11 < 23"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@eric03742/netrunner-entities": "^0.3.0",
+    "commander": "^13.1.0",
+    "loglevel": "^1.9.2",
+    "mysql2": "^3.14.0",
+    "reflect-metadata": "^0.2.2",
+    "tslib": "^2.8.1",
+    "typeorm": "^0.3.22"
+  }
 }
