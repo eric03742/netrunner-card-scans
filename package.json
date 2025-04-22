@@ -1,6 +1,6 @@
 {
   "name": "@eric03742/netrunner-card-scans",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "《矩阵潜袭》卡牌图片资源下载工具",
   "type": "module",
   "main": "dist/index.js",
