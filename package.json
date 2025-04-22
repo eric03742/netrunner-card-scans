@@ -1,0 +1,22 @@
+{
+  "name": "@eric03742/netrunner-card-scans",
+  "version": "0.1.0",
+  "description": "《矩阵潜袭》卡牌图片资源下载工具",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric03742/netrunner-card-scans.git"
+  },
+  "keywords": [
+    "Netrunner"
+  ],
+  "author": "Eric03742",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eric03742/netrunner-card-scans/issues"
+  },
+  "homepage": "https://github.com/eric03742/netrunner-card-scans#readme"
+}
