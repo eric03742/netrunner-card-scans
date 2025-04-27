@@ -40,7 +40,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@eric03742/netrunner-entities": "^0.3.0",
+    "@eric03742/netrunner-entities": "^0.5.0",
     "commander": "^13.1.0",
     "loglevel": "^1.9.2",
     "mysql2": "^3.14.0",
